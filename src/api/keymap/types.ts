@@ -33,6 +33,7 @@ export type LanguageType =
   | "ko-KR"
   | "pl-PL"
   | "ru-RU"
+  | "hr-HR"
   | "de-CH"
   | "en-XX-eurkey"
   | "fr-XX-bepo"

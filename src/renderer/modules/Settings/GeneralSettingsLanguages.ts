@@ -36,6 +36,7 @@ import koKR from "@Assets/flags/koKR.png";
 import plPL from "@Assets/flags/plPL.png";
 import deCH from "@Assets/flags/deCH.png";
 import ruRU from "@Assets/flags/ruRU.png";
+import hrHR from "@Assets/flags/hrHR.png";
 
 // Dygma - Layouts (community/third-party)
 import enXXeurkey from "@Assets/flags/enXXeurkey.png";
@@ -47,6 +48,7 @@ import itIT from "@Assets/flags/itIT.png";
 // !!!
 
 const flags = [
+  hrHR,
   daDK,
   enUS,
   enGB,
@@ -71,6 +73,7 @@ const flags = [
 ];
 
 const languages = [
+  "hr-HR",
   "da-DK",
   "en-US",
   "en-GB",
@@ -95,6 +98,7 @@ const languages = [
 ];
 
 const languageNames = [
+  "Croatian",
   "Danish",
   "English (US)",
   "English (GB)",

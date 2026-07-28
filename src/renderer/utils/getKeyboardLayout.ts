@@ -1,4 +1,5 @@
 const keyboardTypeMap: { [locale: string]: "ANSI" | "ISO" } = {
+  "hr-HR": "ISO",
   "da-DK": "ISO",
   "en-US": "ANSI",
   "en-GB": "ISO",

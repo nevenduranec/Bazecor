@@ -94,6 +94,7 @@ import { ruRU, ruRUModifiedTables} from "./ru/RU";
 import { deCH, deCHModifiedTables } from "./de/CH";
 import { esMX, esMXModifiedTables } from "./es/MX";
 import { itIT, itITModifiedTables } from "./it/IT";
+import { hrHR, hrHRModifiedTables } from "./hr/HR";
 
 // Dygma - Layouts (community/third-party)
 import { enXXeurkey, enXXeurkeyModifiedTables } from "./en/XX-eurkey";
@@ -121,6 +122,7 @@ const supportModifiedTables = {
   "ru-RU": ruRUModifiedTables,
   "de-CH": deCHModifiedTables,
   "it-IT": itITModifiedTables,
+  "hr-HR": hrHRModifiedTables,
   // Community
   "en-XX-eurkey": enXXeurkeyModifiedTables,
   "fr-XX-bepo": frXXbepoModifiedTables,
@@ -150,6 +152,7 @@ const languages: {
   "ru-RU": ruRU,
   "de-CH": deCH,
   "it-IT": itIT,
+  "hr-HR": hrHR,
   // Community
   "en-XX-eurkey": enXXeurkey,
   "fr-XX-bepo": frXXbepo,

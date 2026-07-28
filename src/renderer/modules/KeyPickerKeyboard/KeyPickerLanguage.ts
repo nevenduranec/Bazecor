@@ -67,6 +67,7 @@ import koKR from "@Renderer/modules/KeyPickerKeyboard/languages/ko/KR.json";
 import plPL from "@Renderer/modules/KeyPickerKeyboard/languages/pl/PL.json";
 import ruRU from "@Renderer/modules/KeyPickerKeyboard/languages/ru/RU.json";
 import deCH from "@Renderer/modules/KeyPickerKeyboard/languages/de/CH.json";
+import hrHR from "@Renderer/modules/KeyPickerKeyboard/languages/hr/HR.json";
 
 // Dygma - Layouts (community/third-party)
 import enXXeurkey from "@Renderer/modules/KeyPickerKeyboard/languages/en/XX-eurkey.json";
@@ -95,6 +96,7 @@ const languages: { [key in LangOptions]: Array<KeyProps> } = {
   "pl-PL": plPL,
   "ru-RU": ruRU,
   "de-CH": deCH,
+  "hr-HR": hrHR,
   "es-MX": esMX,
   // Community
   "en-XX-eurkey": enXXeurkey,
@@ -120,6 +122,7 @@ export type LangOptions =
   | "ko-KR"
   | "pl-PL"
   | "ru-RU"
+  | "hr-HR"
   | "de-CH"
   | "en-XX-eurkey"
   | "fr-XX-bepo"
